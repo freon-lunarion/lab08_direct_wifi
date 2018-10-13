@@ -18,7 +18,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import java.lang.reflect.Method;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -29,12 +29,11 @@ public class Task2Activity extends AppCompatActivity implements View.OnClickList
     private TextView tvStatus;
     private WifiP2pManager WD_Manager;
     private ArrayAdapter<String> peerAdapter;
-    private ArrayList<String> myList  = new ArrayList<>();
+
     private ListView lsView;
     private Channel mChannel;
     private BroadcastReceiver receiver;
     private IntentFilter intentFilter;
-    private WiFiDirectBroadcastReceiver wifiDirectBroadcastReceiver;
 
     private String[] deviceNameArray;
     private WifiP2pDevice[] deviceArray;

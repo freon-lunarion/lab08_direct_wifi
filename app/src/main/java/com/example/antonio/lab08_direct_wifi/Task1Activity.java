@@ -18,7 +18,7 @@ public class Task1Activity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_task1 );
-        tvStatus = findViewById( R.id.tvStatus );
+
         btnPeer = findViewById( R.id.btnPeerDiscover );
         btnPeer.setOnClickListener( this );
         btnCheck = findViewById( R.id.btnCheck );
